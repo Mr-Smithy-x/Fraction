@@ -59,7 +59,7 @@ int main() {
     cout << endl;
 
     cout << "Accepting Value w/ cin"<<endl;
-    cout << "put a util in the format of a/b (1 input only): ";
+    cout << "put a fraction in the format of a/b (1 input only): ";
     fraction b;
     cin >> b;
     cout << b << endl;
