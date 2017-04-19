@@ -58,6 +58,13 @@ int main() {
     cout << f << " / 2: " << f / 2 << endl;
     cout << endl;
 
+
+    fraction t(8,2);
+    cout << "Creating fraction: " << t << endl;
+    t.reduce();
+    cout << "Reduced fraction: (8/2 / 2) = " << t << endl;
+    cout << endl;
+
     cout << "Accepting Value w/ cin"<<endl;
     cout << "put a fraction in the format of a/b (1 input only): ";
     fraction b;

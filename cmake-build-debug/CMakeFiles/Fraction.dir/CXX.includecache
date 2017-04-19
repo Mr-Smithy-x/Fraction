@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/admin/CLionProjects/Fraction/main.cpp
+iostream
+-
+util/fraction.h
+/Users/admin/CLionProjects/Fraction/util/fraction.h
+
+/Users/admin/CLionProjects/Fraction/util/fraction.cpp
+fraction.h
+/Users/admin/CLionProjects/Fraction/util/fraction.h
+
+/Users/admin/CLionProjects/Fraction/util/fraction.h
+iostream
+-
+
